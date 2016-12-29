@@ -34,7 +34,7 @@
     image.frame =CGRectMake(100, 300, 100, 100);
     image.contentMode=UIViewContentModeScaleAspectFill;
     image.image =[UIImage imageNamed:@"启动页_01"];
-    [self.view addSubview:image];
+//    [self.view addSubview:image];
     self.view.backgroundColor=[UIColor whiteColor];
     //第一
 //  1.  声明一个Block

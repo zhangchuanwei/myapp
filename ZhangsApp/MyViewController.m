@@ -12,6 +12,7 @@
 #import "ThreadViewController.h"
 #import "loadHomeHtmlViewController.h"
 #import "SearchViewController.h"
+#import "UiViewController.h"
 @interface MyViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView *Mytableview;
 @property(nonatomic,strong)NSArray *dataArray;
@@ -34,7 +35,7 @@
 -(NSArray *)dataArray
 {
     if (_dataArray==nil) {
-        _dataArray=@[@"知识点1:动画",@"知识点2:Block",@"知识点3:多线程",@"知识点4:runloop",@"5.加载本地html",@"搜索加display"];
+        _dataArray=@[@"知识点1:动画",@"知识点2:Block",@"知识点3:多线程",@"知识点4:runloop",@"5.加载本地html",@"搜索加display",@"ui"];
         
     }
     return _dataArray;
@@ -91,6 +92,11 @@
     }else if (indexPath.row ==5)
     {
         SearchViewController *vc =[[SearchViewController alloc]init];
+        
+        [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row ==6)
+    {
+        UiViewController *vc =[[UiViewController alloc]init];
         
         [self.navigationController pushViewController:vc animated:YES];
     }

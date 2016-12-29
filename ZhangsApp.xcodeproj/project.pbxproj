@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5005C1A1E01394D00F365FC /* UiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5005C181E01394D00F365FC /* UiViewController.m */; };
+		B5005C1B1E01394D00F365FC /* UiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5005C191E01394D00F365FC /* UiViewController.xib */; };
+		B5005C1D1E013FA900F365FC /* imag1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5005C1C1E013FA900F365FC /* imag1.png */; };
+		B5005C1F1E01403B00F365FC /* 屏幕快照 2016-12-14 下午4.54.04.png in Resources */ = {isa = PBXBuildFile; fileRef = B5005C1E1E01403B00F365FC /* 屏幕快照 2016-12-14 下午4.54.04.png */; };
 		B50CCDDD1DD574F800E2B415 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50CCDDC1DD574F800E2B415 /* SearchViewController.m */; };
 		B53B2CDA1CB4F25D00B77F5D /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B2CD91CB4F25D00B77F5D /* BlockViewController.m */; };
 		B53B2CDD1CB4F66900B77F5D /* ThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53B2CDC1CB4F66900B77F5D /* ThreadViewController.m */; };
@@ -48,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B5005C171E01394D00F365FC /* UiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiViewController.h; sourceTree = "<group>"; };
+		B5005C181E01394D00F365FC /* UiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiViewController.m; sourceTree = "<group>"; };
+		B5005C191E01394D00F365FC /* UiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UiViewController.xib; sourceTree = "<group>"; };
+		B5005C1C1E013FA900F365FC /* imag1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imag1.png; sourceTree = "<group>"; };
+		B5005C1E1E01403B00F365FC /* 屏幕快照 2016-12-14 下午4.54.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2016-12-14 下午4.54.04.png"; sourceTree = "<group>"; };
 		B50CCDDB1DD574F800E2B415 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		B50CCDDC1DD574F800E2B415 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		B53B2CD81CB4F25D00B77F5D /* BlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
@@ -112,6 +121,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5005C131E01385B00F365FC /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				B5005C171E01394D00F365FC /* UiViewController.h */,
+				B5005C181E01394D00F365FC /* UiViewController.m */,
+				B5005C191E01394D00F365FC /* UiViewController.xib */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
 		B50CCDDA1DD574BF00E2B415 /*  搜索 */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +173,8 @@
 				B573524C1CB399850076B5A2 /* LaunchScreen.storyboard */,
 				B573524F1CB399850076B5A2 /* Info.plist */,
 				B5D8DAE91DBE0C61002FA1D3 /* img.png */,
+				B5005C1C1E013FA900F365FC /* imag1.png */,
+				B5005C1E1E01403B00F365FC /* 屏幕快照 2016-12-14 下午4.54.04.png */,
 				B573523E1CB399840076B5A2 /* Supporting Files */,
 			);
 			path = ZhangsApp;
@@ -188,6 +209,7 @@
 		B57352741CB3A4670076B5A2 /* 知识点 */ = {
 			isa = PBXGroup;
 			children = (
+				B5005C131E01385B00F365FC /* ui */,
 				B50CCDDA1DD574BF00E2B415 /*  搜索 */,
 				B57352751CB3A4670076B5A2 /* 1动画 */,
 				B57352761CB3A4670076B5A2 /* 2Block */,
@@ -376,8 +398,11 @@
 				B573524E1CB399850076B5A2 /* LaunchScreen.storyboard in Resources */,
 				B573524B1CB399850076B5A2 /* Assets.xcassets in Resources */,
 				B5D8DAE81DBE028B002FA1D3 /* s.css in Resources */,
+				B5005C1B1E01394D00F365FC /* UiViewController.xib in Resources */,
 				B5D8DAEA1DBE0C61002FA1D3 /* img.png in Resources */,
+				B5005C1D1E013FA900F365FC /* imag1.png in Resources */,
 				B5D8DAE61DBDFD86002FA1D3 /* index1.js in Resources */,
+				B5005C1F1E01403B00F365FC /* 屏幕快照 2016-12-14 下午4.54.04.png in Resources */,
 				B5D8DAE21DBDFD50002FA1D3 /* index1.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59CAB1F1DB47415003DDA49 /* RunloopViewController.m in Sources */,
+				B5005C1A1E01394D00F365FC /* UiViewController.m in Sources */,
 				B53B2CDD1CB4F66900B77F5D /* ThreadViewController.m in Sources */,
 				B50CCDDD1DD574F800E2B415 /* SearchViewController.m in Sources */,
 				B5D8DADF1DBDFCFB002FA1D3 /* loadHomeHtmlViewController.m in Sources */,
